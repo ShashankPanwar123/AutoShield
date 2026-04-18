@@ -1,0 +1,5 @@
+Place your trained AlexNet weights file here:
+    best_image_model.pth
+
+This file is the output of train_image_model_csv.ipynb.
+The numeric prediction system works fully without it.

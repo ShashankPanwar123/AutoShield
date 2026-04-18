@@ -1,0 +1,30 @@
+# ================================================================
+# AutoShield — Python Dependencies
+# Install with: pip install -r requirements.txt
+# ================================================================
+
+# ---- API Backend ----
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9        # for UploadFile / Form support
+pydantic==2.7.1
+
+# ---- Frontend ----
+streamlit==1.35.0
+requests==2.32.2
+
+# ---- ML / Data ----
+scikit-learn==1.4.2
+xgboost==2.0.3
+imbalanced-learn==0.12.3
+joblib==1.4.2
+pandas==2.2.2
+numpy==1.26.4
+
+# ---- Image Model (optional — comment out if not using) ----
+torch==2.3.0
+torchvision==0.18.0
+Pillow==10.3.0
+
+# ---- Utilities ----
+python-dotenv==1.0.1

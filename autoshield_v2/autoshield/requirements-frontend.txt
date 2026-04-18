@@ -1,0 +1,7 @@
+# ================================================================
+# AutoShield — Streamlit Cloud Requirements (no PyTorch)
+# Use this file when deploying ONLY the frontend to Streamlit Cloud
+# ================================================================
+
+streamlit==1.35.0
+requests==2.32.2
